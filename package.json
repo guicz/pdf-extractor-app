@@ -1,0 +1,45 @@
+{
+  "name": "pdf-extractor-app",
+  "version": "0.1.0",
+  "description": "PDF Extractor Web Application",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 55000",
+    "build": "next build",
+    "start": "next start -p 55000",
+    "lint": "next lint",
+    "clean": "rm -rf .next && rm -rf node_modules"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@tanstack/react-query": "^5.74.3",
+    "@types/js-cookie": "^3.0.6",
+    "@types/uuid": "^10.0.0",
+    "axios": "^1.6.2",
+    "daisyui": "^4.12.24",
+    "formdata-node": "^6.0.3",
+    "js-cookie": "^3.0.5",
+    "marked": "^9.1.5",
+    "next": "14.0.3",
+    "openai": "^4.94.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.5.2",
+    "react-markdown": "^10.1.0",
+    "react-pdf": "^7.5.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.3",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}

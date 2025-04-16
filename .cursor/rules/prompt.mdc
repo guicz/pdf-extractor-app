@@ -1,0 +1,88 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Prompt para Desenvolvimento de Aplicação Web para Consumo da API PDF Extractor
+
+## Tarefa: Desenvolver uma aplicação web moderna para extrair e analisar documentos utilizando a PDF Extractor API
+
+### Contexto:
+Você precisa criar uma aplicação web que permita aos usuários enviar documentos (principalmente PDFs), extrair seu conteúdo utilizando a API PDF Extractor existente, analisar esse conteúdo usando prompts personalizados, e visualizar/editar o resultado final em uma interface amigável.
+
+### Requisitos Funcionais:
+
+1. **Upload e Gerenciamento de Documentos:**
+   - Interface para upload de PDFs e outros formatos
+   - Armazenamento em sistema de arquivos com UUIDs por sessão
+   - Listagem dos documentos enviados
+
+2. **Extração de Conteúdo:**
+   - Integração com a API PDF Extractor (http://localhost:56002)
+   - Autenticação via Bearer token: `34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266`
+   - Exibição do conteúdo extraído em formato estruturado
+
+3. **Sistema de Prompts/Presets:**
+   - Interface para criação/seleção de prompts personalizados
+   - Biblioteca de presets comuns (resumo executivo, laudo técnico, etc.)
+   - Capacidade de salvar prompts personalizados
+
+4. **Análise e Processamento:**
+   - Envio do conteúdo extraído + prompt para processamento
+   - Opção de selecionar diferentes LLMs para análise (claude sonnet 3.7, openai o3-mini) - UTILIZE ESPECIFICAMENTE ESTAS.
+   - Visualização do processamento em tempo real
+
+5. **Interface de Visualização e Edição:**
+   - Canvas com 3 abas: documento original, conteúdo extraído, análise final
+   - Editor para modificar o resultado final
+   - Exportação em markdown ou outros formatos
+
+### Stack Tecnológico:
+
+- **Frontend:**
+  - Next.js 15+
+  - React & React DOM
+  - TailwindCSS com DaisyUI ou Shadcn/UI
+  - React Query para gerenciamento de estado
+
+- **Armazenamento:**
+  - Sistema de arquivos local com UUIDs
+  - Opcional: integração com armazenamento em nuvem
+
+### Fluxo da Aplicação:
+
+1. Upload de documento → geração de UUID de sessão
+2. Extração via API PDF Extractor
+3. Seleção/criação de prompt personalizado
+4. Processamento/análise do conteúdo extraído com o prompt
+5. Visualização e edição do resultado
+6. Exportação do documento final
+
+### Integração com a API:
+
+- Endpoint principal: `POST http://localhost:56002/extract-pdf`
+- Autenticação: Bearer token no header `Authorization`
+- Parâmetros principais:
+  - `file`: arquivo PDF (multipart/form-data)
+  - `prompt`: instruções personalizadas para extração
+  - Opcionais: `use_ocr`, `output_format`, etc.
+
+### Considerações Adicionais:
+
+- Interface responsiva e intuitiva
+- Baixa complexidade e alta flexibilidade
+- Foco em experiência de usuário fluida
+- Feedback visual durante processamentos longos
+- Sistema de erros/notificações informativo
+
+Por favor, comece desenvolvendo esta aplicação com foco inicial na estrutura do projeto e na interface de upload de documentos e integração com a API PDF Extractor.
+
+
+Utilize a porta 55000 para o frontend. Estamos usando node 20 lts
+Já estamos na raiz do projeto. utilize este path atual.
+A documentaçao da API PDF Extractor está em http://localhost:56003/swagger.yaml
+
+
+FOLLOW THIS PLAN STRICTLY!!!
+
+
