@@ -20,7 +20,7 @@ Você precisa criar uma aplicação web que permita aos usuários enviar documen
 
 2. **Extração de Conteúdo:**
    - Integração com a API PDF Extractor (http://localhost:55002)
-   - Autenticação via Bearer token: `34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266`
+   - Autenticação via Bearer token: `[REDACTED_API_KEY]`
    - Exibição do conteúdo extraído em formato estruturado
 
 3. **Sistema de Prompts/Presets:**
@@ -434,7 +434,7 @@ Now let's create our API utility for the PDF Extractor API:
 + import axios from 'axios';
 + 
 + const API_URL = 'http://localhost:55002';
-+ const API_TOKEN = '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266';
++ const API_TOKEN = '[REDACTED_API_KEY]';
 + 
 + const api = axios.create({
 +   baseURL: API_URL,
@@ -1443,7 +1443,7 @@ Now let's create a README.md file for the project:
 + The application integrates with the PDF Extractor API:
 + 
 + - **Endpoint**: http://localhost:55002/extract-pdf
-+ - **Authentication**: Bearer token: `34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266`
++ - **Authentication**: Bearer token: `[REDACTED_API_KEY]`
 + - **API Documentation**: Available at http://localhost:55002/api-docs or http://localhost:55003
 + 
 + ## Project Structure

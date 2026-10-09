@@ -20,7 +20,7 @@ Você precisa criar uma aplicação web que permita aos usuários enviar documen
 
 2. **Extração de Conteúdo:**
    - Integração com a API PDF Extractor (http://localhost:55002)
-   - Autenticação via Bearer token: `34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266`
+   - Autenticação via Bearer token: `[REDACTED_API_KEY]`
    - Exibição do conteúdo extraído em formato estruturado
 
 3. **Sistema de Prompts/Presets:**

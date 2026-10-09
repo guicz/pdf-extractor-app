@@ -78,7 +78,8 @@ A modern web application for extracting, analyzing, and processing PDF documents
 
 The application integrates with the PDF Extractor API running at http://localhost:56002. Make sure the API is running before using the extraction features.
 
-- **Authentication**: Bearer token (configured in the application)
+- **Authentication**: Set `PDF_EXTRACTOR_API_KEY` in the server environment (or an untracked `.env.local` for development). PM2 reads this variable from its launching environment. The server proxies add the Bearer token; the browser never receives it. Requests fail without a configured key, while builds do not require one.
+- **Exposed credentials**: Revoke and replace any previously committed key before deployment. Removing it from the current files does not revoke it or remove it from Git history.
 - **Endpoints**: The application uses a proxy to communicate with the API
 
 ## Session Management

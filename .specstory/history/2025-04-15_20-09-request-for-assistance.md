@@ -713,7 +713,7 @@ reader@apps:~/htdocs/reader.dg5.com.br$
 +     const response = await axios.get(url, {
         headers: {
 -         'Authorization': `Bearer ${PDF_EXTRACTOR_CONFIG.API_TOKEN}`
-+         Authorization: `Bearer ${process.env.PDF_EXTRACTOR_API_KEY || '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266'}`
++         Authorization: `Bearer ${process.env.PDF_EXTRACTOR_API_KEY || '[REDACTED_API_KEY]'}`
         },
 -       // Add a shorter timeout for status checks
         timeout: 5000
@@ -999,7 +999,7 @@ reader@apps:~/htdocs/reader.dg5.com.br$
 -         HOSTNAME: '0.0.0.0'
 +         HOSTNAME: '0.0.0.0',
 +         PDF_EXTRACTOR_API_URL: 'http://localhost:55002',
-+         PDF_EXTRACTOR_API_KEY: '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266'
++         PDF_EXTRACTOR_API_KEY: '[REDACTED_API_KEY]'
         },
         log_date_format: 'YYYY-MM-DD HH:mm:ss',
 ```

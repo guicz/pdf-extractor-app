@@ -1921,7 +1921,7 @@ reader@apps:~/htdocs/reader.dg5.com.br/pdf-extractor-app$
 - The application integrates with the PDF Extractor API:
 - 
 - - **Endpoint**: http://localhost:55002/extract-pdf
-- - **Authentication**: Bearer token: `34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266`
+- - **Authentication**: Bearer token: `[REDACTED_API_KEY]`
 - - **API Documentation**: Available at http://localhost:55002/api-docs or http://localhost:55003
 + The application integrates with the PDF Extractor API running at http://localhost:55002. Make sure the API is running before using the extraction features.
 + 
@@ -2775,7 +2775,7 @@ Read file: pdf-extractor-app/src/app/analyze/page.tsx
 +   PROXY_API_URL: '/api/proxy',
 +   
 +   // Authentication token for the PDF Extractor API
-    API_TOKEN: '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+    API_TOKEN: '[REDACTED_API_KEY]',
 -   
 -   // Local proxy URL - client-side endpoint
 -   PROXY_API_URL: '/api/proxy'
@@ -3359,7 +3359,7 @@ reader@apps:~/htdocs/reader.dg5.com.br/pdf-extractor-app$
 ---
 
 ```bash
-curl -H "Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266" http://localhost:55002 | cat
+curl -H "Authorization: Bearer [REDACTED_API_KEY]" http://localhost:55002 | cat
 ```
 
 ```
@@ -3383,7 +3383,7 @@ reader@apps:~/htdocs/reader.dg5.com.br/pdf-extractor-app$
 ---
 
 ```bash
-curl -H "Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266" http://localhost:55003/swagger.yaml | head -20 | cat
+curl -H "Authorization: Bearer [REDACTED_API_KEY]" http://localhost:55003/swagger.yaml | head -20 | cat
 ```
 
 ```
@@ -3417,7 +3417,7 @@ reader@apps:~/htdocs/reader.dg5.com.br/pdf-extractor-app$
 ---
 
 ```bash
-curl -H "Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266" http://localhost:55002/status | cat
+curl -H "Authorization: Bearer [REDACTED_API_KEY]" http://localhost:55002/status | cat
 ```
 
 ```

@@ -25,11 +25,7 @@ export const extractPDF = async (file: File, prompt?: string, useOCR: boolean = 
     }
 
     console.log('Extracting PDF through proxy endpoint:', `${PDF_EXTRACTOR_CONFIG.PROXY_API_URL}/extract-pdf`);
-    const response = await api.post('/extract-pdf', formData, {
-      headers: {
-        'Authorization': `Bearer ${PDF_EXTRACTOR_CONFIG.API_KEY}`
-      }
-    });
+    const response = await api.post('/extract-pdf', formData);
     return { success: true, data: response.data };
   } catch (error) {
     console.error('Error extracting PDF:', error);

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import axios from 'axios';
 import { PDF_EXTRACTOR_CONFIG } from '@/lib/config/environment';
+import { getPdfExtractorApiKey } from '@/lib/config/pdfExtractor.server';
 
 // Define OPTIONS handler for CORS preflight requests
 export async function OPTIONS() {
@@ -17,6 +18,7 @@ export async function OPTIONS() {
 
 export async function POST(request: NextRequest) {
   try {
+    const apiKey = getPdfExtractorApiKey();
     // Force using port 56002
     const API_ENDPOINT = `http://localhost:56002/extract-pdf`;
     console.log(`Proxying extract-pdf request to ${API_ENDPOINT}`, {
@@ -72,7 +74,7 @@ export async function POST(request: NextRequest) {
         console.log(`Proxy attempt ${attempts}/${maxAttempts} to ${API_ENDPOINT}`);
         const response = await axios.post(API_ENDPOINT, apiFormData, {
           headers: {
-            'Authorization': `Bearer ${PDF_EXTRACTOR_CONFIG.API_KEY}`,
+            'Authorization': `Bearer ${apiKey}`,
             'Content-Type': 'multipart/form-data',
           },
           timeout: 300000, // 5 minute timeout for PDF extraction
@@ -82,13 +84,13 @@ export async function POST(request: NextRequest) {
         return NextResponse.json(response.data, { status: 200 });
       } catch (error) {
         lastError = error;
-        console.error(`Proxy attempt ${attempts} failed:`, error);
+        console.error(`Proxy attempt ${attempts} failed:`, error instanceof Error ? error.message : 'Unknown error');
         // Wait before retrying
         await new Promise(resolve => setTimeout(resolve, 1000));
       }
     }
 
-    console.error('All proxy attempts failed:', lastError);
+    console.error('All proxy attempts failed:', lastError instanceof Error ? lastError.message : 'Unknown error');
     
     if (axios.isAxiosError(lastError)) {
       if (lastError.code === 'ECONNREFUSED') {
@@ -118,4 +120,4 @@ export async function POST(request: NextRequest) {
       { status: 500 }
     );
   }
-} 
+}
