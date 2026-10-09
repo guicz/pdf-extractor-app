@@ -24093,7 +24093,7 @@
 2025-04-15 20:19:11:     headers: Object [AxiosHeaders] {
 2025-04-15 20:19:11:       Accept: 'application/json, text/plain, */*',
 2025-04-15 20:19:11:       'Content-Type': undefined,
-2025-04-15 20:19:11:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-15 20:19:11:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-15 20:19:11:       'User-Agent': 'axios/1.8.4',
 2025-04-15 20:19:11:       'Accept-Encoding': 'gzip, compress, deflate, br'
 2025-04-15 20:19:11:     },
@@ -24180,7 +24180,7 @@
 2025-04-15 20:19:11:       socket: [Socket],
 2025-04-15 20:19:11:       _header: 'GET /status HTTP/1.1\r\n' +
 2025-04-15 20:19:11:         'Accept: application/json, text/plain, */*\r\n' +
-2025-04-15 20:19:11:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 20:19:11:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 20:19:11:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 20:19:11:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
 2025-04-15 20:19:11:         'Host: localhost:55002\r\n' +
@@ -24528,7 +24528,7 @@
 2025-04-15 20:26:42:     headers: Object [AxiosHeaders] {
 2025-04-15 20:26:42:       Accept: 'application/json, text/plain, */*',
 2025-04-15 20:26:42:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-FfCZczcn3lhB57UM7rH_2h10p',
-2025-04-15 20:26:42:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-15 20:26:42:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-15 20:26:42:       'User-Agent': 'axios/1.8.4',
 2025-04-15 20:26:42:       'Content-Length': '279432',
 2025-04-15 20:26:42:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -24632,7 +24632,7 @@
 2025-04-15 20:26:42:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 20:26:42:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 20:26:42:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-FfCZczcn3lhB57UM7rH_2h10p\r\n' +
-2025-04-15 20:26:42:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 20:26:42:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 20:26:42:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 20:26:42:         'Content-Length: 279432\r\n' +
 2025-04-15 20:26:42:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -24713,7 +24713,7 @@
 2025-04-15 20:34:49:     headers: Object [AxiosHeaders] {
 2025-04-15 20:34:49:       Accept: 'application/json, text/plain, */*',
 2025-04-15 20:34:49:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-ySRlmwWcVlKYUKPqlVPKFTd5B',
-2025-04-15 20:34:49:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-15 20:34:49:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-15 20:34:49:       'User-Agent': 'axios/1.8.4',
 2025-04-15 20:34:49:       'Content-Length': '279432',
 2025-04-15 20:34:49:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -24820,7 +24820,7 @@
 2025-04-15 20:34:49:     _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 20:34:49:       'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 20:34:49:       'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-ySRlmwWcVlKYUKPqlVPKFTd5B\r\n' +
-2025-04-15 20:34:49:       'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 20:34:49:       'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 20:34:49:       'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 20:34:49:       'Content-Length: 279432\r\n' +
 2025-04-15 20:34:49:       'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -25003,7 +25003,7 @@
 2025-04-15 20:34:49:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 20:34:49:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 20:34:49:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-ySRlmwWcVlKYUKPqlVPKFTd5B\r\n' +
-2025-04-15 20:34:49:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 20:34:49:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 20:34:49:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 20:34:49:         'Content-Length: 279432\r\n' +
 2025-04-15 20:34:49:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -25079,7 +25079,7 @@
 2025-04-15 20:35:25:     headers: Object [AxiosHeaders] {
 2025-04-15 20:35:25:       Accept: 'application/json, text/plain, */*',
 2025-04-15 20:35:25:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-8foUn7pkO_6mbeqlReQ0jDu0v',
-2025-04-15 20:35:25:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-15 20:35:25:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-15 20:35:25:       'User-Agent': 'axios/1.8.4',
 2025-04-15 20:35:25:       'Content-Length': '279432',
 2025-04-15 20:35:25:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -25186,7 +25186,7 @@
 2025-04-15 20:35:25:     _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 20:35:25:       'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 20:35:25:       'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-8foUn7pkO_6mbeqlReQ0jDu0v\r\n' +
-2025-04-15 20:35:25:       'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 20:35:25:       'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 20:35:25:       'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 20:35:25:       'Content-Length: 279432\r\n' +
 2025-04-15 20:35:25:       'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -25369,7 +25369,7 @@
 2025-04-15 20:35:25:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 20:35:25:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 20:35:25:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-8foUn7pkO_6mbeqlReQ0jDu0v\r\n' +
-2025-04-15 20:35:25:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 20:35:25:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 20:35:25:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 20:35:25:         'Content-Length: 279432\r\n' +
 2025-04-15 20:35:25:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -25445,7 +25445,7 @@
 2025-04-15 20:36:00:     headers: Object [AxiosHeaders] {
 2025-04-15 20:36:00:       Accept: 'application/json, text/plain, */*',
 2025-04-15 20:36:00:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-AIaYNdDkN4iG7bd2YdmNU2HHf',
-2025-04-15 20:36:00:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-15 20:36:00:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-15 20:36:00:       'User-Agent': 'axios/1.8.4',
 2025-04-15 20:36:00:       'Content-Length': '279432',
 2025-04-15 20:36:00:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -25552,7 +25552,7 @@
 2025-04-15 20:36:00:     _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 20:36:00:       'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 20:36:00:       'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-AIaYNdDkN4iG7bd2YdmNU2HHf\r\n' +
-2025-04-15 20:36:00:       'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 20:36:00:       'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 20:36:00:       'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 20:36:00:       'Content-Length: 279432\r\n' +
 2025-04-15 20:36:00:       'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -25735,7 +25735,7 @@
 2025-04-15 20:36:00:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 20:36:00:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 20:36:00:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-AIaYNdDkN4iG7bd2YdmNU2HHf\r\n' +
-2025-04-15 20:36:00:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 20:36:00:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 20:36:00:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 20:36:00:         'Content-Length: 279432\r\n' +
 2025-04-15 20:36:00:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -25811,7 +25811,7 @@
 2025-04-15 20:36:01:     headers: Object [AxiosHeaders] {
 2025-04-15 20:36:01:       Accept: 'application/json, text/plain, */*',
 2025-04-15 20:36:01:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-AIaYNdDkN4iG7bd2YdmNU2HHf',
-2025-04-15 20:36:01:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-15 20:36:01:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-15 20:36:01:       'User-Agent': 'axios/1.8.4',
 2025-04-15 20:36:01:       'Content-Length': '279432',
 2025-04-15 20:36:01:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -25918,7 +25918,7 @@
 2025-04-15 20:36:01:     _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 20:36:01:       'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 20:36:01:       'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-AIaYNdDkN4iG7bd2YdmNU2HHf\r\n' +
-2025-04-15 20:36:01:       'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 20:36:01:       'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 20:36:01:       'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 20:36:01:       'Content-Length: 279432\r\n' +
 2025-04-15 20:36:01:       'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -26101,7 +26101,7 @@
 2025-04-15 20:36:01:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 20:36:01:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 20:36:01:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-AIaYNdDkN4iG7bd2YdmNU2HHf\r\n' +
-2025-04-15 20:36:01:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 20:36:01:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 20:36:01:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 20:36:01:         'Content-Length: 279432\r\n' +
 2025-04-15 20:36:01:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -26177,7 +26177,7 @@
 2025-04-15 22:54:17:     headers: Object [AxiosHeaders] {
 2025-04-15 22:54:17:       Accept: 'application/json, text/plain, */*',
 2025-04-15 22:54:17:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-Wyj2oj8PKWuMUQFraTgG7KjIE',
-2025-04-15 22:54:17:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-15 22:54:17:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-15 22:54:17:       'User-Agent': 'axios/1.8.4',
 2025-04-15 22:54:17:       'Content-Length': '653683',
 2025-04-15 22:54:17:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -26284,7 +26284,7 @@
 2025-04-15 22:54:17:     _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 22:54:17:       'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 22:54:17:       'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-Wyj2oj8PKWuMUQFraTgG7KjIE\r\n' +
-2025-04-15 22:54:17:       'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 22:54:17:       'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 22:54:17:       'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 22:54:17:       'Content-Length: 653683\r\n' +
 2025-04-15 22:54:17:       'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -26467,7 +26467,7 @@
 2025-04-15 22:54:17:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 22:54:17:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 22:54:17:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-Wyj2oj8PKWuMUQFraTgG7KjIE\r\n' +
-2025-04-15 22:54:17:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 22:54:17:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 22:54:17:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 22:54:17:         'Content-Length: 653683\r\n' +
 2025-04-15 22:54:17:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -26543,7 +26543,7 @@
 2025-04-15 22:54:18:     headers: Object [AxiosHeaders] {
 2025-04-15 22:54:18:       Accept: 'application/json, text/plain, */*',
 2025-04-15 22:54:18:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-gj6ksv7iZePelCEc1b3CFBxF-',
-2025-04-15 22:54:18:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-15 22:54:18:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-15 22:54:18:       'User-Agent': 'axios/1.8.4',
 2025-04-15 22:54:18:       'Content-Length': '653683',
 2025-04-15 22:54:18:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -26650,7 +26650,7 @@
 2025-04-15 22:54:18:     _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 22:54:18:       'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 22:54:18:       'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-gj6ksv7iZePelCEc1b3CFBxF-\r\n' +
-2025-04-15 22:54:18:       'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 22:54:18:       'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 22:54:18:       'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 22:54:18:       'Content-Length: 653683\r\n' +
 2025-04-15 22:54:18:       'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -26833,7 +26833,7 @@
 2025-04-15 22:54:18:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 22:54:18:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 22:54:18:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-gj6ksv7iZePelCEc1b3CFBxF-\r\n' +
-2025-04-15 22:54:18:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 22:54:18:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 22:54:18:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 22:54:18:         'Content-Length: 653683\r\n' +
 2025-04-15 22:54:18:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -26909,7 +26909,7 @@
 2025-04-15 22:54:20:     headers: Object [AxiosHeaders] {
 2025-04-15 22:54:20:       Accept: 'application/json, text/plain, */*',
 2025-04-15 22:54:20:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-8db6_8F9aRuh6YHhhZcQlgyiY',
-2025-04-15 22:54:20:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-15 22:54:20:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-15 22:54:20:       'User-Agent': 'axios/1.8.4',
 2025-04-15 22:54:20:       'Content-Length': '653683',
 2025-04-15 22:54:20:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -27016,7 +27016,7 @@
 2025-04-15 22:54:20:     _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 22:54:20:       'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 22:54:20:       'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-8db6_8F9aRuh6YHhhZcQlgyiY\r\n' +
-2025-04-15 22:54:20:       'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 22:54:20:       'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 22:54:20:       'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 22:54:20:       'Content-Length: 653683\r\n' +
 2025-04-15 22:54:20:       'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -27199,7 +27199,7 @@
 2025-04-15 22:54:20:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 22:54:20:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 22:54:20:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-8db6_8F9aRuh6YHhhZcQlgyiY\r\n' +
-2025-04-15 22:54:20:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 22:54:20:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 22:54:20:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 22:54:20:         'Content-Length: 653683\r\n' +
 2025-04-15 22:54:20:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -27275,7 +27275,7 @@
 2025-04-15 22:54:21:     headers: Object [AxiosHeaders] {
 2025-04-15 22:54:21:       Accept: 'application/json, text/plain, */*',
 2025-04-15 22:54:21:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-8db6_8F9aRuh6YHhhZcQlgyiY',
-2025-04-15 22:54:21:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-15 22:54:21:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-15 22:54:21:       'User-Agent': 'axios/1.8.4',
 2025-04-15 22:54:21:       'Content-Length': '653683',
 2025-04-15 22:54:21:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -27382,7 +27382,7 @@
 2025-04-15 22:54:21:     _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 22:54:21:       'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 22:54:21:       'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-8db6_8F9aRuh6YHhhZcQlgyiY\r\n' +
-2025-04-15 22:54:21:       'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 22:54:21:       'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 22:54:21:       'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 22:54:21:       'Content-Length: 653683\r\n' +
 2025-04-15 22:54:21:       'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -27565,7 +27565,7 @@
 2025-04-15 22:54:21:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-15 22:54:21:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-15 22:54:21:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-8db6_8F9aRuh6YHhhZcQlgyiY\r\n' +
-2025-04-15 22:54:21:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-15 22:54:21:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-15 22:54:21:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-15 22:54:21:         'Content-Length: 653683\r\n' +
 2025-04-15 22:54:21:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -27676,7 +27676,7 @@
 2025-04-16 01:27:15:     headers: Object [AxiosHeaders] {
 2025-04-16 01:27:15:       Accept: 'application/json, text/plain, */*',
 2025-04-16 01:27:15:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-_yCsGGIDDm9iSED0AcmR7SDzY',
-2025-04-16 01:27:15:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-16 01:27:15:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-16 01:27:15:       'User-Agent': 'axios/1.8.4',
 2025-04-16 01:27:15:       'Content-Length': '1005073',
 2025-04-16 01:27:15:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -27783,7 +27783,7 @@
 2025-04-16 01:27:15:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-16 01:27:15:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-16 01:27:15:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-_yCsGGIDDm9iSED0AcmR7SDzY\r\n' +
-2025-04-16 01:27:15:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-16 01:27:15:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-16 01:27:15:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-16 01:27:15:         'Content-Length: 1005073\r\n' +
 2025-04-16 01:27:15:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -27856,7 +27856,7 @@
 2025-04-16 01:28:16:     headers: Object [AxiosHeaders] {
 2025-04-16 01:28:16:       Accept: 'application/json, text/plain, */*',
 2025-04-16 01:28:16:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-1JIo7NU4-k44tZUMTforDKZsx',
-2025-04-16 01:28:16:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-16 01:28:16:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-16 01:28:16:       'User-Agent': 'axios/1.8.4',
 2025-04-16 01:28:16:       'Content-Length': '1005073',
 2025-04-16 01:28:16:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -27963,7 +27963,7 @@
 2025-04-16 01:28:16:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-16 01:28:16:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-16 01:28:16:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-1JIo7NU4-k44tZUMTforDKZsx\r\n' +
-2025-04-16 01:28:16:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-16 01:28:16:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-16 01:28:16:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-16 01:28:16:         'Content-Length: 1005073\r\n' +
 2025-04-16 01:28:16:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -28039,7 +28039,7 @@
 2025-04-16 01:29:17:     headers: Object [AxiosHeaders] {
 2025-04-16 01:29:17:       Accept: 'application/json, text/plain, */*',
 2025-04-16 01:29:17:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-ZcwU_VGK9Zle6WWBzukWQI1fu',
-2025-04-16 01:29:17:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-16 01:29:17:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-16 01:29:17:       'User-Agent': 'axios/1.8.4',
 2025-04-16 01:29:17:       'Content-Length': '1005073',
 2025-04-16 01:29:17:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -28146,7 +28146,7 @@
 2025-04-16 01:29:17:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-16 01:29:17:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-16 01:29:17:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-ZcwU_VGK9Zle6WWBzukWQI1fu\r\n' +
-2025-04-16 01:29:17:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-16 01:29:17:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-16 01:29:17:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-16 01:29:17:         'Content-Length: 1005073\r\n' +
 2025-04-16 01:29:17:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +
@@ -28222,7 +28222,7 @@
 2025-04-16 01:29:18:     headers: Object [AxiosHeaders] {
 2025-04-16 01:29:18:       Accept: 'application/json, text/plain, */*',
 2025-04-16 01:29:18:       'Content-Type': 'multipart/form-data; boundary=axios-1.8.4-boundary-ZcwU_VGK9Zle6WWBzukWQI1fu',
-2025-04-16 01:29:18:       Authorization: 'Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
+2025-04-16 01:29:18:       Authorization: 'Bearer [REDACTED_API_KEY]',
 2025-04-16 01:29:18:       'User-Agent': 'axios/1.8.4',
 2025-04-16 01:29:18:       'Content-Length': '1005073',
 2025-04-16 01:29:18:       'Accept-Encoding': 'gzip, compress, deflate, br'
@@ -28329,7 +28329,7 @@
 2025-04-16 01:29:18:       _header: 'POST /extract-pdf HTTP/1.1\r\n' +
 2025-04-16 01:29:18:         'Accept: application/json, text/plain, */*\r\n' +
 2025-04-16 01:29:18:         'Content-Type: multipart/form-data; boundary=axios-1.8.4-boundary-ZcwU_VGK9Zle6WWBzukWQI1fu\r\n' +
-2025-04-16 01:29:18:         'Authorization: Bearer 34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266\r\n' +
+2025-04-16 01:29:18:         'Authorization: Bearer [REDACTED_API_KEY]\r\n' +
 2025-04-16 01:29:18:         'User-Agent: axios/1.8.4\r\n' +
 2025-04-16 01:29:18:         'Content-Length: 1005073\r\n' +
 2025-04-16 01:29:18:         'Accept-Encoding: gzip, compress, deflate, br\r\n' +

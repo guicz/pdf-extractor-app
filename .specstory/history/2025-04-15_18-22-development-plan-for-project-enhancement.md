@@ -274,7 +274,7 @@ Now, I'll create the API route for our proxy:
 + import { fileFromPath } from 'formdata-node/file-from-path';
 + 
 + const API_URL = 'http://localhost:55002';
-+ const API_TOKEN = '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266';
++ const API_TOKEN = '[REDACTED_API_KEY]';
 + 
 + export async function POST(request: NextRequest) {
 +   try {
@@ -393,7 +393,7 @@ Now, let's modify the existing PDF Extractor service to use our new proxy endpoi
   import axios from 'axios';
   
 - const API_URL = 'http://localhost:55002';
-- const API_TOKEN = '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266';
+- const API_TOKEN = '[REDACTED_API_KEY]';
 + // Use the local proxy endpoint instead of directly calling the external API
 + const API_URL = '/api/proxy';
   
@@ -426,7 +426,7 @@ Now let's create a status endpoint for our proxy to ensure we can check the PDF 
 + import axios from 'axios';
 + 
 + const API_URL = 'http://localhost:55002';
-+ const API_TOKEN = '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266';
++ const API_TOKEN = '[REDACTED_API_KEY]';
 + 
 + export async function GET() {
 +   try {
@@ -496,7 +496,7 @@ Now, let's create an environment configuration file to handle API settings centr
 +   INTERNAL_API_URL: 'http://localhost:55002',
 +   
 +   // API Token - used only on the server side
-+   API_TOKEN: '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
++   API_TOKEN: '[REDACTED_API_KEY]',
 +   
 +   // Local proxy URL - client-side endpoint
 +   PROXY_API_URL: '/api/proxy'
@@ -525,7 +525,7 @@ Now, let's update our proxy routes to use the environment configuration:
   import axios from 'axios';
 - 
 - const API_URL = 'http://localhost:55002';
-- const API_TOKEN = '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266';
+- const API_TOKEN = '[REDACTED_API_KEY]';
 + import { PDF_EXTRACTOR_CONFIG } from '@/lib/config/environment';
   
   export async function POST(request: NextRequest) {
@@ -547,7 +547,7 @@ Now, let's update our proxy routes to use the environment configuration:
   import axios from 'axios';
 - 
 - const API_URL = 'http://localhost:55002';
-- const API_TOKEN = '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266';
+- const API_TOKEN = '[REDACTED_API_KEY]';
 + import { PDF_EXTRACTOR_CONFIG } from '@/lib/config/environment';
   
   export async function GET() {

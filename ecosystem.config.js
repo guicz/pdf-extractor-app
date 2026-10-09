@@ -13,7 +13,7 @@ module.exports = {
         PORT: 55000,
         HOSTNAME: '0.0.0.0',
         PDF_EXTRACTOR_API_URL: 'http://localhost:56002',
-        PDF_EXTRACTOR_API_KEY: '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266'
+        PDF_EXTRACTOR_API_KEY: process.env.PDF_EXTRACTOR_API_KEY
       },
       log_date_format: 'YYYY-MM-DD HH:mm:ss',
       out_file: './logs/out.log',

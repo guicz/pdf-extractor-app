@@ -7,7 +7,6 @@
 export const PDF_EXTRACTOR_CONFIG = {
   // Use the same port as in ecosystem.config.js
   API_URL: process.env.PDF_EXTRACTOR_API_URL || 'http://localhost:56002',
-  API_KEY: process.env.PDF_EXTRACTOR_API_KEY || '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266',
   PROXY_API_URL: '/api/proxy',
   // Configurable options
   EXTRACTION_TIMEOUT: 60000, // 60 seconds

@@ -247,7 +247,7 @@ Based on my examination of the codebase, here's my verification of whether the a
 
 3. **API Integration:**
    - ✅ Correct endpoint: POST http://localhost:56002/extract-pdf via proxy
-   - ✅ Bearer token authentication: Using the token '34a60ac2092446db797901ddb6f223209b524e1c145e7f556343e3bf1d33c266'
+   - ✅ Bearer token authentication: Using the token '[REDACTED_API_KEY]'
    - ✅ Parameters handled: file, prompt, use_ocr, etc.
 
 4. **Port Configuration:**
